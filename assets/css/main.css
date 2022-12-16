@@ -3452,9 +3452,15 @@ table.alt tfoot {
 }
 
 #intro.wrapper > .inner img {
+	transition: .3s;
 	opacity: 0.36;
     filter: brightness(0.8);
     width: 12em;
+}
+
+#intro.wrapper > .inner img:hover {
+	opacity: 1;
+    filter: brightness(1);
 }
 
 @media screen and (max-width: 1680px) {
